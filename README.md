@@ -26,6 +26,19 @@ Simply copy the exercise to your account, then give your favorite Octocat (Mona)
 
 [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Exercise:+Create+and+run+a+GitHub+Actions+Workflow&visibility=public)
 
+### Quick guide: complete the activity step by step
+
+1. Copy this template to your GitHub account using the **Copy Exercise** button above.
+1. Wait about 20 seconds, then refresh the repository page.
+1. Open the first issue created by Mona and follow each step in order.
+1. Create branch `welcome-workflow`, then create `.github/workflows/welcome.yml`.
+1. Update the workflow in that same file by adding:
+   - the `jobs` section
+   - a `welcome` job on `ubuntu-latest`
+   - a step that comments on newly opened pull requests
+1. Open a pull request from `welcome-workflow` into `main` to trigger the workflow.
+1. Confirm the workflow passes, then merge the pull request to finish.
+
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
